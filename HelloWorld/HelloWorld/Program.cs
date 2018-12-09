@@ -14,7 +14,7 @@ namespace HelloWorld
 
             var isWithdrawal = Console.ReadLine();
 
-            if (isWithdrawal != null && isWithdrawal.ToUpper() == "Y")
+            if (isWithdrawal.ToUpper() == "Y")
             {
                 Console.WriteLine("How much?");
 
