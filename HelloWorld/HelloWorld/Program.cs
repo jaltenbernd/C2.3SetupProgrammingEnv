@@ -24,6 +24,10 @@ namespace HelloWorld
 
                 Console.WriteLine($"Your new balance: {checking.Balance:C}");
             }
+            else
+            {
+                Console.WriteLine("Thank you.");
+            }
 
             Console.ReadLine();
 
