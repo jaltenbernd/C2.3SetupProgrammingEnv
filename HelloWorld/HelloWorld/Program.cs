@@ -8,7 +8,7 @@ namespace HelloWorld
         {
             var checking = new CheckingAccount("JohnDoe", 15);
 
-            Console.WriteLine($"A BRAND new checking account for {checking.Name} is open with a balance of {checking.Balance:C}");
+            Console.WriteLine($"A new checking account for {checking.Name} is open with a balance of {checking.Balance:C}");
 
             Console.WriteLine("Would you like to withdraw an amount? (Y/N)");
 
