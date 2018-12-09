@@ -14,7 +14,7 @@ namespace HelloWorld
 
             var isWithdrawal = Console.ReadLine();
 
-            if (isWithdrawal != null && isWithdrawal.ToUpper() == "Y")
+            if (isWithdrawal.ToUpper() == "Y")
             {
                 Console.WriteLine("How much?");
 
@@ -23,6 +23,10 @@ namespace HelloWorld
                 checking.Withdraw(Convert.ToDouble(withdrawAmount));
 
                 Console.WriteLine($"Your new balance: {checking.Balance:C}");
+            }
+            else
+            {
+                Console.WriteLine("Thank you.");
             }
 
             Console.ReadLine();
